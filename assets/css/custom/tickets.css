@@ -1,0 +1,364 @@
+.tickets {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1% 2%;
+}
+
+.tickets #infoFilm {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.tickets #infoFilm #cover {
+    width: 150px;
+    height: 240px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 8px black;
+}
+
+.tickets #infoFilm #information {
+    width: 100%;
+    padding: 10% 2% 8%;
+}
+
+.tickets #infoFilm #information h3 {
+    margin: 2% 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.tickets #infoFilm #information .emphasis {
+    font-size: 1.1em;
+    font-weight: normal;
+}
+
+.tickets #infoFilm .buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4%;
+}
+
+.tickets #infoFilm .buttons .button {
+    flex-basis: 44%;
+    padding: 2%;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 2px 2px 5px #999999;
+    transition: 0.2s;
+    cursor: pointer;
+    color: #000000;
+    border-radius: 15px;
+    border: solid darkgoldenrod 2px;
+    background-color: goldenrod;
+}
+
+.tickets #infoFilm .buttons .button:hover {
+    transform: scale(1.1, 1.1);
+    color: rgb(87, 72, 33);
+    box-shadow: 4px 4px 5px #999;
+}
+
+.tickets #total {
+    flex-basis: 100%;
+    background-color: rgb(35, 35, 35);
+    border-radius: 10px;
+}
+
+.tickets #total h2.subtitle {
+    margin-bottom: 2%;
+    padding: 4% 0;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: goldenrod;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: solid darkgoldenrod 2px;
+}
+
+.tickets #total #totalPrice {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 0 1%;
+}
+
+.tickets #total #totalPrice p,
+.tickets #total #totalPrice ul {
+    width: 80%;
+    margin: 4% 0;
+    padding: 2%;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    border: solid darkgoldenrod 2px;
+    background-color: goldenrod;
+}
+
+.tickets #total #totalPrice ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.spinner {
+    display: none;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.spinner img {
+    width: 40%;
+    height: 20%;
+}
+
+#tabs {
+    width: 100vw;
+    margin-top: 8%;
+    /* overflow: none; */
+}
+
+#tabs-1,
+#tabs-2,
+#tabs-3 {
+    padding: 50px 0;
+}
+
+#tabs ul li {
+    min-width: calc(95%/3);
+}
+
+#tabs ul li a {
+    width: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.text-info {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+div.legend {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding: 1% 5%;
+}
+
+div.legend p {
+    margin: 0 2%;
+}
+
+div.legend span {
+    border: solid rgb(41, 7, 7) 1px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
+}
+
+div.legend span#b_libre {
+    background-color: rgb(48, 48, 48);
+}
+
+div.legend span#b_ocupado {
+    background-color: red;
+}
+
+div.legend span#b_reservado {
+    background-color: green;
+}
+
+div.distribution {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+div.distribution>* {
+    align-self: flex-end;
+}
+
+.emergency_1 {
+    width: 10%;
+    margin: 1%;
+    transform: rotateY(180deg);
+}
+
+.emergency_2 {
+    width: 10%;
+    margin: 1%;
+    transform: rotateY(0deg);
+}
+
+div#screen {
+    width: 85%;
+    margin: 0 auto 2%;
+    padding: 5px;
+    background-color: black;
+    border-radius: 4px;
+}
+
+div#screen p {
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+div.seats .buttons button {
+    padding: 2%;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 2px 2px 5px #999999;
+    transition: 0.2s;
+    cursor: pointer;
+    color: #000000;
+    border-radius: 15px;
+    border: solid darkgoldenrod 2px;
+    background-color: goldenrod;
+}
+
+div.seats .buttons button:hover {
+    transform: scale(1.1, 1.1);
+    color: rgb(87, 72, 33);
+    box-shadow: 4px 4px 5px #999;
+}
+
+.spinner h2 {
+    width: 70%;
+    margin: 0 auto;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #000000;
+    animation-duration: 2.5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-name: wobble;
+}
+
+@keyframes wobble {
+    0% {
+        transform: translateX(0%);
+    }
+    15% {
+        transform: translateX(-25%) rotate(-5deg);
+    }
+    30% {
+        transform: translateX(20%) rotate(3deg);
+    }
+    45% {
+        transform: translateX(-15%) rotate(-3deg);
+    }
+    60% {
+        transform: translateX(10%) rotate(2deg);
+    }
+    75% {
+        transform: translateX(-5%) rotate(-1deg);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.libre,
+.ocupado,
+.reservado {
+    display: initial !important;
+}
+
+.seat {
+    fill: rgb(48, 48, 48);
+}
+
+.ocupado {
+    fill: red;
+}
+
+.libre {
+    fill: rgb(70, 70, 70);
+}
+
+.reservado {
+    fill: green;
+}
+
+#qr {
+    width: 80%;
+}
+
+@media all and (min-width: 600px) {
+    .tickets {
+        flex-wrap: nowrap;
+    }
+    .tickets #infoFilm {
+        flex-basis: 75%;
+    }
+    .tickets #infoFilm #cover {
+        width: 20%;
+        height: 80%;
+    }
+    .tickets #infoFilm #information {
+        width: 75%;
+        padding: 2% 2% 2% 4%;
+    }
+    .tickets #infoFilm .buttons .button {
+        flex-basis: 40%;
+        padding: 1% 2%;
+        border-radius: 10px;
+    }
+    .tickets #total {
+        flex-basis: 25%;
+    }
+    .tickets #total h2.subtitle {
+        margin-bottom: 10%;
+        padding: 10% 0 8%;
+    }
+    .tickets #total #totalPrice {
+        margin: 2% 0;
+    }
+    #tabs {
+        width: 100%;
+        margin-top: 4%;
+        overflow: initial;
+    }
+    .emergency_1 {
+        width: 3%;
+    }
+    .emergency_2 {
+        width: 3%;
+    }
+    div#screen {
+        width: 60%;
+    }
+    div.seats .buttons button {
+        padding: 1% 2%;
+        border-radius: 10px;
+    }
+    .spinner img {
+        width: 30%;
+    }
+    .spinner h2 {
+        width: 50%;
+    }
+    #qr {
+        width: 40%;
+    }
+}

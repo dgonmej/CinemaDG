@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ARCHIVOS DE CÓDIGO EXTERNO -->
+    <script src="assets/js/lib/jquery-3.3.1.min.js"></script>
+
+    <!-- ENLACES A JQUERY UI -->
+    <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> -->
+    <!-- <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
+    <link rel="stylesheet" href="assets/css/lib/jquery-ui.css">
+    <script src="assets/js/lib/jquery-ui.min.js"></script>
+
+    <!-- ARCHIVOS DE CÓDIGO PROPIOS -->
+    <script src="assets/js/custom/film.js"></script>
+
+    <!-- ARCHIVO DE ESTILOS -->
+    <link rel="stylesheet" href="assets/css/custom/main.css">
+    <link rel="stylesheet" href="assets/css/custom/header.css">
+    <link rel="stylesheet" href="assets/css/custom/tickets.css">
+    <link rel="stylesheet" href="assets/css/custom/form.css">
+    <link rel="stylesheet" href="assets/css/custom/footer.css">
+
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <title>DG Cines | Película</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="logo">
+                <a href="index.html" class="index" alt="Volver a la página de inicio">
+                    <svg class="logo" version="1.0" viewBox="0 0 512 512">
+                        <g transform="translate(0,512) scale(0.1,-0.1)">
+                            <title>Logo de la página</title>
+                            <path d="M34 5086 l-34 -34 0 -2492 0 -2492 34 -34 c29 -29 41 -34 82 -34 30 0 61 7 79 18 114 70 3527 2431 3553 2458 27 29 32 41 32 84 0 43 -5 55 -32 84 -26 28 -3439 2388 -3553 2458 -18 11 -49 18 -78 18 -42 0 -54 -5 -83 -34z m1814 -1434 c864 -596 1572 -1087 1572 -1092 0 -6 -3091 -2144 -3158 -2184 -9 -6 -12 434 -12 2184 0 1750 3 2190 13 2184 6 -4 720 -496 1585 -1092z"/>
+                            <path d="M348 3438 c6 -7 72 -56 146 -108 78 -55 138 -103 141 -115 7 -29 165 -1329 165 -1357 0 -21 -23 -32 -226 -113 -124 -49 -228 -93 -231 -98 -3 -4 21 -6 54 -2 32 3 222 17 423 30 547 38 674 61 875 160 219 107 347 252 414 468 40 130 45 352 11 492 -7 28 -32 91 -56 142 -88 185 -263 317 -484 367 -51 12 -1185 146 -1231 146 -8 0 -8 -4 -1 -12z m1001 -519 c103 -212 20 -466 -202 -618 l-47 -32 5 38 c5 32 84 781 85 801 1 21 132 -135 159 -189z"/>
+                        </g>
+                    </svg>
+                    <h1 class="title">DG Cines</h1>
+                </a>
+            </div>
+        </header>
+        <div class="content">
+            <h1 class="title">Consigue tus entradas</h1>
+            <div class="tickets">
+                <div id="infoFilm">
+                    <img id="cover" src="" alt="" title="" />
+                    <div id="information">
+                        <h3 id="locationCinema">CINE:
+                            <span class="emphasis">DG Cines Santa Cruz de Tenerife</span>
+                        </h3>
+                        <h3 id="titleFilm">PELÍCULA:
+                            <span class="emphasis"></span>
+                        </h3>
+                        <h3 id="premiereFilm">ESTRENO:
+                            <span class="emphasis"></span>
+                        </h3>
+                        <h3 id="kindFilm">GÉNERO:
+                            <span class="emphasis"></span>
+                        </h3>
+                        <h3 id="dateSession">FECHA:
+                            <span class="emphasis"></span>
+                        </h3>
+                        <h3 id="showSession">SESIÓN:
+                            <span class="emphasis"></span>
+                        </h3>
+                        <div class="buttons">
+                            <a href="" target="_blank" id="b_trailer" title="Ver tráiler en youtube" class="button">Tráiler</a>
+                            <a href="index.html" title="Volver a la página de inicio" class="button">Volver</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="total">
+                    <h2 class="subtitle">Total</h2>
+                    <div id="totalPrice">
+                        <p class="price">0:00 &euro;</p>
+                        <p class="ticketsCount">Entradas: 0</p>
+                        <p class="subtotal">Subtotal: 0:00 &euro;</p>
+                        <ul></ul>
+                    </div>
+                </div>
+            </div>
+            <div id="tabs">
+                <ul>
+                    <li><a href="#tabs-1">Elige tu asiento</a></li>
+                    <li><a href="#tabs-2">Haz tu pago</a></li>
+                    <li><a href="#tabs-3">Obtén tus entradas</a></li>
+                </ul>
+                <div id="tabs-1">
+                    <div class="spinner">
+                        <h2>Separando butacas</h2>
+                        <img src="./assets/img/spinner.svg" alt="Spinner de carga">
+                    </div>
+                    <div class="seats">
+                        <p class="text-info">Seleccione sus butacas</p>
+                        <div class="legend">
+                            <p><span id="b_ocupado"></span>Ocupados</p>
+                            <p><span id="b_libre"></span>Libres</p>
+                            <p><span id="b_reservado"></span>Elegidos</p>
+                        </div>
+                        <div class="distribution">
+                            <img class="emergency_1" src="./assets/img/exit.svg" alt="Salida de emergencia" title="Salida de emergencia">
+                            <svg id="design" width="600" height="250">
+                                <symbol id="seat" viewBox="0 0 1000 1000" preserveAspectRatio="xMinYMin">
+                                    <!-- <title>Butaca de cine</title> -->
+                                    <g>
+                                        <rect height="250" width="100" x="5" y="5" />
+                                        <rect height="150" width="175" x="110" y="60" />
+                                        <rect height="250" width="100" x="290" y="5" />
+                                        <rect height="50" width="175" x="110" y="5" />
+                                    </g>
+                                </symbol>
+                            </svg>
+                            <img class="emergency_2" src="./assets/img/exit.svg" alt="Salida de emergencia" title="Salida de emergencia">
+                        </div>
+                        <div id="screen">
+                            <p>Pantalla</p>
+                        </div>
+                        <div class="buttons">
+                            <button class="b_next" title="Separa tus butacas">Haz tu pago &#10097;</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="tabs-2">
+                    <div class="spinner">
+                        <h2>Obteniendo código QR</h2>
+                        <img src="./assets/img/spinner.svg" alt="Spinner de carga">
+                    </div>
+                    <div class="purchase">
+                        <p class="text-info">Rellena los datos del pago</p>
+                        <!-- <form action="#" method="#"> -->
+                        <div class="form">
+                            <div class="form-div">
+                                <label for="first-name" class="form-label">Nombre:</label>
+                                <input type="text" class="form-imput" id="first-name" title="Introduce tu nombre" required>
+                            </div>
+
+                            <div class="form-div">
+                                <label for="first-name" class="form-label">Apellidos: </label>
+                                <input type="text" class="form-imput" id="last-name" title="Introduce tus apellidos" required>
+                            </div>
+
+                            <div class="form-div">
+                                <label for="address" class="form-label">Email:</label>
+                                <input type="email" class="form-imput" id="address" title="Introduce tu correo electrónico" required>
+                            </div>
+                            <div class="buttons">
+                                <button class="b_back" title="Volver atrás">&#10096; Volver</button>
+                                <button class="b_confirm" title="Confirmar el pago">Pagar &#10097;</button>
+                                <!-- <input type="submit" class="b_confirm" title="Confirmar pago" value="Pagar &#10097;"> -->
+                            </div>
+                        </div>
+                        <!-- </form> -->
+                    </div>
+                </div>
+                <div id="tabs-3">
+                    <p class="text-info">COMPRA REALIZADA CON ÉXITO</p>
+                    <img src="assets/img/qr_code.jpg" id="qr" title="Escanea el código QR para obtener tus entradas" alt="Códgo QR con enlace al perfil de GitHub" />
+                </div>
+            </div>
+        </div>
+        <footer>
+            <a rel="license" href="//creativecommons.org/licenses/by-nc/4.0/" target="_blank" class="license" title="Permiso para compartir y adaptar la obra sin posibilidad de comercializar">
+                <img alt="Licencia de Creative Commons" style="border-width:0" src="assets/img/cc.svg" />
+            </a>
+            <a href="#" class="author" title="Autor">
+                <span xmlns:cc="//creativecommons.org/ns#" property="cc:attributionName" style="font-weight: bold;">&copy; 2018 Diego González</span>
+            </a>
+        </footer>
+    </main>
+</body>
+
+</html>

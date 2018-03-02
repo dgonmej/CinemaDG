@@ -1,0 +1,174 @@
+.session {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1% 2%;
+}
+
+.session #infoFilm {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.session #infoFilm h2.subtitle {
+    flex-basis: 100%;
+    margin-bottom: 2%;
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.session #infoFilm h2.subtitle .emphasis {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+.session #infoFilm #cover {
+    width: 150px;
+    height: 240px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 8px black;
+}
+
+.session #infoFilm #information {
+    width: 100%;
+    padding: 10% 2% 8%;
+}
+
+.session #infoFilm #information h3 {
+    margin: 1% 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.session #infoFilm #information .emphasis {
+    font-size: 1.1em;
+    font-weight: normal;
+}
+
+.session #infoFilm #information #synopsisFilm .emphasis {
+    margin: 1% 0;
+    font-size: 0.9em;
+    font-weight: normal;
+    text-indent: 2em;
+}
+
+.session #infoFilm .buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4%;
+}
+
+.session #infoFilm .buttons .button {
+    flex-basis: 44%;
+    padding: 2%;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 2px 2px 5px #999999;
+    transition: 0.2s;
+    cursor: pointer;
+    color: #000000;
+    border-radius: 10px;
+    border: solid darkgoldenrod 2px;
+    background-color: goldenrod;
+}
+
+.session #infoFilm .buttons .button:hover {
+    transform: scale(1.1, 1.1);
+    color: rgb(87, 72, 33);
+    box-shadow: 4px 4px 5px #999;
+}
+
+.session #showtimes {
+    flex-basis: 100%;
+    padding: 5% 1%;
+    background-color: rgb(35, 35, 35);
+    border-radius: 10px;
+}
+
+.session #showtimes h2.subtitle {
+    margin-bottom: 2%;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    color: rgb(230, 230, 230);
+}
+
+.session #showtimes #sessions {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 0 1%;
+}
+
+.session #showtimes #sessions button {
+    width: 70%;
+    margin: 3% 0;
+    padding: 1% 2%;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.2s;
+    cursor: pointer;
+    color: #000000;
+    border-radius: 4px;
+    border: solid darkgoldenrod 2px;
+    background-color: goldenrod;
+}
+
+.session #showtimes #sessions button:hover {
+    transform: scale(1.1, 1.1);
+    color: rgb(87, 72, 33);
+}
+
+@media all and (min-width: 600px) {
+    .session {
+        flex-wrap: nowrap;
+    }
+    .session #infoFilm {
+        flex-basis: 75%;
+    }
+    .session #infoFilm h2.subtitle {
+        text-align: left;
+    }
+    .session #infoFilm h2.subtitle .emphasis {
+        font-size: 1.2em;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    }
+    .session #infoFilm #cover {
+        width: 25%;
+        height: 80%;
+    }
+    .session #infoFilm #information {
+        width: 75%;
+        padding: 2% 2% 2% 4%;
+    }
+    .session #infoFilm .buttons .button {
+        flex-basis: 40%;
+        padding: 1% 2%;
+        border-radius: 15px;
+    }
+    .session #showtimes {
+        flex-basis: 25%;
+        padding: 2%;
+    }
+    .session #showtimes h2.subtitle {
+        margin-bottom: 10%;
+    }
+    .session #showtimes #sessions {
+        margin: 2% 0;
+    }
+    .session #showtimes #sessions button {
+        width: 70%;
+        margin: 4% 0;
+    }
+}

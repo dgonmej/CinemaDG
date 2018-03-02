@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    min-height: 14vh;
+    margin: 0;
+    padding: 1%;
+    font-size: 1.4em;
+    background-color: rgb(35, 35, 35);
+}
+
+header div.logo a {
+    display: flex;
+    justify-content: center;
+    flex-basis: 75%;
+    text-decoration: none;
+}
+
+header div.logo svg.logo {
+    height: 10vh;
+    fill: rgb(230, 230, 230);
+    -webkit-filter: drop-shadow(4px 4px 10px rgb(0, 0, 0));
+    filter: drop-shadow(4px 4px 10px rgb(0, 0, 0));
+}
+
+header div.logo h1.title {
+    align-self: center;
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+    color: rgb(230, 230, 230);
+    text-shadow: 4px 4px 10px rgb(0, 0, 0);
+}

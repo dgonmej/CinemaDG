@@ -1,0 +1,102 @@
+{
+    "film_01": {
+        "titulo": "Coco",
+        "caratula": "assets/img/covers/coco.jpg",
+        "estreno": "2017",
+        "genero": "Aventura, Animación, Fantasía",
+        "duracion": "109 minutos",
+        "sipnosis": "¿Qué pasaría si pudiéramos reencontrarnos con nuestros familiares fallecidos hace tiempo? A partir de la colorida celebración mexicana del Día de los Muertos, Coco nos descubre el misterio de compartir la reunión familiar más extraordinaria y sorprendente, incluso con aquellos antepasados que murieron muchos años atrás. La historia sigue a un niño de doce años de edad llamado Miguel, que vive con su familia en una zona rural de México.",
+        "trailer": "https://www.youtube.com/watch?v=zNCz4mQzfEI",
+        "sesiones": ["16:50", "18:30", "20:15", "22:25"]
+    },
+    "film_02": {
+        "titulo": "Guardianes de la Galaxia",
+        "caratula": "assets/img/covers/guardianesdelagalaxia.jpg",
+        "estreno": "2014",
+        "genero": "Acción, Ciencia ficción, Aventura",
+        "duracion": "122 minutos",
+        "sipnosis": "El temerario aventurero Peter Quill es objeto de un implacable cazarrecompensas después de robar una misteriosa esfera codiciada por Ronan, un poderoso villano cuya ambición amenaza todo el universo. Para poder escapar del incansable Ronan, Quill se ve obligado a pactar una complicada tregua con un cuarteto de disparatados inadaptados: Rocket, un mapache armado con un rifle, Groot, un humanoide con forma de árbol, la letal y enigmática Gamora y el vengativo Drax the Destroyer.",
+        "trailer": "https://www.youtube.com/watch?v=F60FZKt_36s",
+        "sesiones": ["18:30", "22:25"]
+    },
+    "film_03": {
+        "titulo": "Star Wars 8",
+        "caratula": "assets/img/covers/starwars_8.jpg",
+        "estreno": "2017",
+        "genero": "Aventura, Fantasía, Ciencia ficción",
+        "duracion": "151 minutos",
+        "sipnosis": "La galaxia se encuentra perdida y separada, y deberán unir fuerzas si no quieren que sea el fin de la paz. Con el rumor de una guerra, los pocos aliados que quedan emprenderán la búsqueda para aumentar sus aliados, mientras se enfrentan a la desconfianza y el temor de aquellos que no olvidan ni perdonan. Mundos casi olvidados, personajes misteriosos y viejas caras conocidas, una nueva aventura está a punto de comenzar para mantener la frágil supervivencia de La República.",
+        "trailer": "https://www.youtube.com/watch?v=anOJjqQb8x0",
+        "sesiones": ["16:50", "18:30", "20:15", "22:25"]
+    },
+    "film_04": {
+        "titulo": "Thor Ragnarok",
+        "caratula": "assets/img/covers/thor_3.jpg",
+        "estreno": "2017",
+        "genero": "Acción, Fantasía, Ciencia ficción",
+        "duracion": "130 minutos",
+        "sipnosis": "En Thor: Ragnarok, de Marvel Studios, Thor se encuentra atrapado en el otro extremo del universo sin su poderoso martillo. Envuelto en una carrera contra el tiempo, deberá regresar a Asgard y detener el Ragnarok — la destrucción de su planeta y el fin de la civilización asgardiana — en manos de una nueva amenaza todopoderosa: la despiadada Hela. Pero, antes, debe sobrevivir a una mortal competencia de gladiadores que lo enfrentará a su antiguo aliado y compañero Vengador... ¡el increíble Hulk!",
+        "trailer": "https://www.youtube.com/watch?v=Cdp7Xo0x0Uw",
+        "sesiones": ["16:50", "18:30"]
+    },
+    "film_05": {
+        "titulo": "Spiderman Homecoming",
+        "caratula": "assets/img/covers/spiderman.jpg",
+        "estreno": "2017",
+        "genero": "Acción, Aventura, Ciencia ficción",
+        "duracion": "110  minutos",
+        "sipnosis": "Peter Parker (Tom Holland) comienza a experimentar su recién descubierta identidad como el superhéroe Spider-Man. Después de la experiencia vivida con los Vengadores, Peter regresa a casa, donde vive con su tía (Marisa Tomei). Bajo la atenta mirada de su mentor Tony Stark (Robert Downey Jr.), Peter intenta mantener una vida normal como cualquier joven de su edad, pero interrumpe en su rutina diaria el nuevo villano Vulture (Michael Keaton) y, con él, lo más importante de la vida de Peter comenzará a verse amenazado.",
+        "trailer": "https://www.youtube.com/watch?v=3fX1O-xKsFg",
+        "sesiones": ["20:15", "22:25"]
+    },
+    "film_06": {
+        "titulo": "Es por tu bien",
+        "caratula": "assets/img/covers/esportubien.jpg",
+        "estreno": "2017",
+        "genero": "Comedia",
+        "duracion": "93 minutos",
+        "sipnosis": "Arturo, Poli y Chus son tres padres de familia que están viendo como su mayor pesadilla se hace realidad. Sus tres preciosas y pequeñas hijas han crecido demasiado rápido. Y lo que es peor: todas se han echado un novio despreciable y quieren presentárselo a la familia. Pero ellos saben que esos seres despreciables solo buscan una cosa de sus dulces hijitas, así que unirán fuerzas para librarse de los novios como sea posible. ¡Esto es la guerra!",
+        "trailer": "https://www.youtube.com/watch?v=wetn6tObiUQ",
+        "sesiones": ["18:30", "20:15", "22:25"]
+    },
+    "film_07": {
+        "titulo": "Tenía que ser él",
+        "caratula": "assets/img/covers/teniaqueserel.jpg",
+        "estreno": "2016",
+        "genero": "Comedia",
+        "duracion": "111 minutos",
+        "sipnosis": "Narra la rivalidad entre Ned (Bryan Cranston), un padre hiperprotector, y el nuevo novio de su amada hija, estudiante en Stanford. Él resulta ser Laird Mayhew (James Franco), un multimillonario de Silicon Valley pero socialmente poco convencional.",
+        "trailer": "https://www.youtube.com/watch?v=Uhyl9TTMppc",
+        "sesiones": ["16:50", "18:30", "20:15"]
+    },
+    "film_08": {
+        "titulo": "Power Rangers",
+        "caratula": "assets/img/covers/powerrangers.jpg",
+        "estreno": "2017",
+        "genero": "Acción, Aventura, Ciencia ficción",
+        "duracion": "123 minutos",
+        "sipnosis": "La película sigue a cinco jóvenes predestinados a convertirse en algo extraordinario cuando descubren que tanto su modesto poblado, Angel Grove, como el resto del mundo, están al borde de la aniquilación por una amenaza alienígena. Nuestros héroes descubren rápidamente que son los únicos que pueden salvar al planeta, pero para lograrlo tendrán que superar problemas de la vida real y unirse bajo el nombre de Power Rangers antes de que sea demasiado tarde.",
+        "trailer": "https://www.youtube.com/watch?v=5kIe6UZHSXw",
+        "sesiones": ["16:50", "22:25"]
+    },
+    "film_09": {
+        "titulo": "Vaiana",
+        "caratula": "assets/img/covers/vaiana.jpg",
+        "estreno": "2016",
+        "genero": "Aventura, Animación, Familia",
+        "duracion": "107 minutos",
+        "sipnosis": "Una gran comedia de aventuras acerca de una enérgica adolescente que se embarca en una misión audaz para salvar a su pueblo. Durante su travesía, Vaiana, se encuentra con el alguna vez todopoderoso semidiós Maui, quien la guía en su aventura para convertirse en una experta navegante. Juntos atravesarán el océano en un viaje lleno de acción, en el que se encontrarán con enormes y feroces criaturas e imposibles desafíos; y en el camino, Vaiana cumple la misión de sus antepasados y descubre lo que siempre persiguió: su propia identidad.",
+        "trailer": "https://www.youtube.com/watch?v=tmpTGztGJ8E",
+        "sesiones": ["16:50", "18:30", "22:25"]
+    },
+    "film_10": {
+        "titulo": "Wonder Woman",
+        "caratula": "assets/img/covers/wonderwoman.jpg",
+        "estreno": "2017",
+        "genero": "Acción, Aventura, Fantasía",
+        "duracion": "141 minutos",
+        "sipnosis": "Antes de ser Wonder Woman, era Diana, princesa de las amazonas, entrenada para ser una guerrera imparable. Criada en una isla paraíso escondida del resto del mundo, cuando un piloto americano se estrella en sus costas y le explica el gran conflicto que está desatándose en el exterior, Diana decidirá abandonar su hogar convencida de que puede detener la amenaza. Luchando junto al hombre en una guerra para detener todas las guerras, Diana descubrirá todos sus poderes… y su verdadero destino.",
+        "trailer": "https://www.youtube.com/watch?v=gOfmwQijKFg",
+        "sesiones": ["16:50", "20:15", "22:25"]
+    }
+}
